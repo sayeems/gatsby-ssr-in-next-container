@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby serve -p 8080",
+    "start": "gatsby serve",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
