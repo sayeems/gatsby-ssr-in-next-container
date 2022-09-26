@@ -5,7 +5,8 @@ const Index = () => {
   return (
     <div>
       <h3>Name: BD-decoupled</h3>
-      <Link to="/posts">see posts</Link>
+      <Link to="/posts">see posts</Link> <br />
+      <Link to="/gatsby-ssr-page">SSR page</Link>
     </div>
   );
 };

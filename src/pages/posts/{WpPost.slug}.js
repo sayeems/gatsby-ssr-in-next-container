@@ -8,7 +8,8 @@ const One = (props) => {
       <div
         dangerouslySetInnerHTML={{ __html: props.data.wpPost.content }}
       ></div>
-      <Link to="/posts">all posts</Link>
+      <Link to="/posts">all posts</Link> <br />
+      <Link to="/">Home</Link>
     </div>
   );
 };

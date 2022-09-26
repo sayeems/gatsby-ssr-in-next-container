@@ -10,6 +10,8 @@ const Index = (props) => {
           <Link to={`/posts/${post.slug}`}>{post.title}</Link>
         </h3>
       ))}
+      <br />
+      <Link to="/">Home</Link>
     </div>
   );
 };
