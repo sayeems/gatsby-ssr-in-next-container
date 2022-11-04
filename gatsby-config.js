@@ -5,6 +5,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-fastify",
+      options: {},
+    },
+    {
       resolve: "gatsby-source-wordpress",
       options: {
         url: "https://dev-ss-gatsby-test.pantheonsite.io/graphql",
