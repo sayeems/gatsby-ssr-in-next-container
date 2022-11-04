@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "https://dev-decoupled-jahz.pantheonsite.io/graphql",
+        url: "https://dev-ss-gatsby-portfolio-be.pantheonsite.io/graphql",
       },
     },
   ],
